@@ -21,7 +21,7 @@ chapter3~chapter8의 게임용 리소스 데이터가 있습니다.<br/>
 chapter3~chapter8의 게임용 이미지 모델이 있습니다.<br/>
 필요할 때 복사해서 사용하세요.
 
-- [Project](https://github.com/gilbutITbook/080355/releases/download/v.1/project.zip): 완성 프로젝트 파일<br/>
+- [Project](https://github.com/user-attachments/files/16940800/project.10.zip): 완성 프로젝트 파일<br/>
 Chapter3~Chapter8의 완성된 프로젝트 파일입니다.<br/>
 위의 링크를 클릭해 내려받으세요.
 
