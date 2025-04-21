@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RouletteController : MonoBehaviour
 {
-    float rotSpeed = 0;  // 회전 속도
+    float rotSpeed = 0;  // 회전 속도   
 
     void Start()
     {
@@ -14,7 +14,7 @@ public class RouletteController : MonoBehaviour
 
     void Update()
     {
-        // 마우스를 클릭하면 회전 속도를 설정한다.
+        // 클릭하면 회전 속도를 설정한다.
         if (Input.GetMouseButtonDown(0))
         {
             this.rotSpeed = 10;
@@ -22,5 +22,8 @@ public class RouletteController : MonoBehaviour
 
         // 회전 속도만큼 룰렛을 회전시킨다.
         transform.Rotate(0, 0, this.rotSpeed);
+
+        // 룰렛을 감속시킨다. (추가)
+        this.rotSpeed *= 0.96f;
     }
 }
